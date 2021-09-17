@@ -1,0 +1,77 @@
+main {
+    min-height: 80vh;
+}
+
+/* 
+h5{
+    padding: 1rem 0; 
+} */
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+h3{
+    padding:1rem 0;
+}
+
+.rating span {
+    margin: 0.1rem;
+}
+
+.footer-color {
+    background-color: #2a2e2eb6;
+    color: white
+}
+
+.fas-color {
+    color: white
+}
+
+/* carousel */
+
+.product-carousel-item-next, .product-carousel-item-prev, .product-carousel-item.active {
+    display: flex;
+    color: black;
+}
+
+.product-carousel-caption {
+    position: absolute;
+    top: 0;
+}
+
+.product-carousel-caption h4 {
+    color: white;
+    background-color: rgba(6, 13, 51, 0.671);
+    font-size: calc(12px + 1vw)
+}
+
+.product-carousel img {
+    display: block;
+    width: 100%;
+    /* height: 600px; */
+    /* width: auto; */
+    /* padding: 30px; */
+    /* margin: 40px; */
+    /* border-radius: 20%; */
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-carousel a {
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .product-carousel-caption h2 {
+        font-size: 2.5vw;
+    }
+}
+
