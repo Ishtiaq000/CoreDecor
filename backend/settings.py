@@ -123,28 +123,28 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 # For local
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'coredecor',
-#         'USER': 'postgres',
-#         'PASSWORD': '22.44.88',
-#         'HOST': 'localhost',
-#         'PORT': '5432'
-#     }
-# }
-
-# For server
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'coredecor',
-        'USER': 'admin',
-        'PASSWORD': 'lG554@832',
+        'USER': 'postgres',
+        'PASSWORD': '22.44.88',
         'HOST': 'localhost',
-        'PORT': ''
+        'PORT': '5432'
     }
 }
+
+# For server
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'coredecor',
+#         'USER': 'admin',
+#         'PASSWORD': 'lG554@832',
+#         'HOST': 'localhost',
+#         'PORT': ''
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
